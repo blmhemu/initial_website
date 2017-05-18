@@ -11,11 +11,47 @@
         body{
             position: relative;
         }
+        #section11,#section21{
+            padding-top: 50px;
+            height: 500px;
+            color: #fff;
+            background-color: dodgerblue;
+        }
+        #section31,#section41{
+            padding-top: 50px;
+            height: 500px;
+            color: #fff;
+            background-color: tomato;
+        }
+        #section12,#section22{
+            padding-top: 50px;
+            height: 500px;
+            color: #fff;
+            background-color: deeppink;
+        }
+        #section32,#section42{
+            padding-top: 50px;
+            height: 500px;
+            color: #fff;
+            background-color: darkviolet;
+        }
+        .affix{
+            top: 0;
+            width: 100%;
+            z-index: 9999 !important;
+        }
+        .affix ~ .container-fluid{
+            position: relative;
+            top: 55px;
+        }
+        .navbar{
+            margin-bottom: 0;
+        }
 
     </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<div class="container-fluid text-center" style="background-color: #4cae4c;color: mintcream;height: 170px;">
+<div class="container-fluid text-center" style="background-color: #4cae4c;color: mintcream;height: 155px;">
     <h1>Welcome</h1>
     <img src="http://cdn2.stylecraze.com/wp-content/uploads/2013/07/crocus-flowers.jpg" class="img-circle" width="80px" style="padding: 7px">
 </div>
@@ -41,12 +77,19 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#section11">About1</a></li>
-                        <li><a href="#section12">Contact1</a></li>
+                        <li><a href="#section11">About</a></li>
+                        <li><a href="#section12">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div class="container-fluid text-center" id="section11">
+            <h2>Hemanth Bollamreddi</h2>
+            <img src="me.jpg" class="img-circle" width="300px" height="320px" style="padding-top: 20px">
+        </div>
+        <div class="container-fluid text-center" id="section12">
+
+        </div>
     </div>
     <div id="father" class="tab-pane fade">
         <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
@@ -61,12 +104,19 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar2">
                     <ul class="nav navbar-nav">
-                        <li><a href="#section21">About2</a></li>
-                        <li><a href="#section22">Contact2</a></li>
+                        <li><a href="#section21">About</a></li>
+                        <li><a href="#section22">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div id="section21" class="container-fluid text-center">
+            <h2>Venu Gopala Krishna</h2>
+            <img src="bvgk.jpg" class="img-circle" width="300px" height="320px" style="padding-top: 20px">
+        </div>
+        <div id="section22" class="container-fluid text-center">
+
+        </div>
     </div>
     <div id="mother" class="tab-pane fade">
         <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
@@ -81,12 +131,19 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar3">
                     <ul class="nav navbar-nav">
-                        <li><a href="#section31">Myself3</a></li>
-                        <li><a href="#section32">Contact3</a></li>
+                        <li><a href="#section31">Myself</a></li>
+                        <li><a href="#section32">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div id="section31" class="container-fluid text-center">
+            <h2>Vijaya Lakshmi</h2>
+            <img src="amma.jpeg" class="img-circle" width="300px" height="320px" style="padding-top: 20px">
+        </div>
+        <div id="section32" class="container-fluid">
+
+        </div>
     </div>
     <div id="sister" class="tab-pane fade">
         <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
@@ -101,12 +158,19 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar4">
                     <ul class="nav navbar-nav">
-                        <li><a href="#section41">Myself4</a></li>
-                        <li><a href="#section42">Contact4</a></li>
+                        <li><a href="#section41">Myself</a></li>
+                        <li><a href="#section42">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div id="section41" class="container-fluid text-center">
+            <h2>Susmitha</h2>
+            <img src="susmi.jpg" class="img-circle" width="300px" height="320px" style="padding-top: 20px">
+        </div>
+        <div id="section42" class="container-fluid">
+
+        </div>
     </div>
 </div>
 </body>
